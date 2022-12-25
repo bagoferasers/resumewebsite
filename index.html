@@ -3,25 +3,90 @@
 	<head>
 		<meta charset = "utf-8"/>
 		<title>Home</title>
+			<link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
 		<link rel = "stylesheet" href = "styles.css">
 	</head>
 	<body>
 		<div class="container">
 			<div class="nav-wrapper">
 				<div class="left-side">
-					<div class="nav-link-wrapper">
+					<div class="nav-link-wrapper active-nav-link">
 						<a href = "index.html">Home</a>
 					</div>
 					<div class="nav-link-wrapper">
-						<a href = "about.html">About</a>
+						<a href = "aboutme.html">About Me</a>
+					</div>
+					<div class="nav-link-wrapper">
+						<a href="workexperience.html">Work Experience</a>
+					  </div>
+					  <div class="nav-link-wrapper">
+						<a href="courses.html">Courses Taken</a>
+					</div>
+					<div class="nav-link-wrapper">
+						<a href="projects.html">Projects</a>
 					</div>
 				</div>
 				<div class="right-side">
+					<div class="email">
+						<div>ctrull60@gmail.com</div>
+					</div>
 					<div class="brand">
 						<div>Colby Bailey</div>
 					</div>
 				</div>
 			</div>
+			<div class="content-wrapper">
+				<div class="portfolio-items-wrapper">
+					<div class="portfolio-item-wrapper">
+						<div class = "portfolio-img-background" style="background-image: url(images/1.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								This is a subtitle for 2.jpg.
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper">
+						<div class = "portfolio-img-background" style="background-image: url(images/2.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								This is a subtitle for 3.jpg.
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper">
+						<div class = "portfolio-img-background" style="background-image: url(images/3.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								This is a subtitle for 4.jpg.
+							</div>
+						</div>
+					</div>
+					<div class="portfolio-item-wrapper">
+						<div class = "portfolio-img-background" style="background-image: url(images/4.jpg)"></div>
+						<div class="img-text-wrapper">
+							<div class="subtitle">
+								This is a subtitle for 5.jpg.
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 	</body>
+	<script>
+		const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
+	  
+		portfolioItems.forEach(portfolioItem => {
+		  portfolioItem.addEventListener('mouseover', () => {
+			console.log(portfolioItem.childNodes[1].classList)
+			portfolioItem.childNodes[1].classList.add('image-blur');
+		  });
+	  
+		  portfolioItem.addEventListener('mouseout', () => {
+			console.log(portfolioItem.childNodes[1].classList)
+			portfolioItem.childNodes[1].classList.remove('image-blur');
+		  });
+		});
+	  
+	  </script>
 </html>
