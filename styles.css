@@ -47,11 +47,11 @@ body {
 
 .active-nav-link {
     border-bottom: 1px solid black;
-  }
+}
   
-  .active-nav-link a {
+.active-nav-link a {
     color: black !important;
-  }
+}
 
 .nav-link-wrapper a {
     color: #8a8a8a;
