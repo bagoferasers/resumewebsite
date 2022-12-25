@@ -38,15 +38,21 @@
 			<div class="content-wrapper">
 				<div class="portfolio-items-wrapper">
 					<div class="portfolio-item-wrapper">
-						<div class = "portfolio-img-background" style="background-image: url(images/1.jpg)"></div>
+						<div class = "portfolio-img-background" style="background-image: url(images/christmascard.jpg)"></div>
 						<div class="img-text-wrapper">
 							<div class="subtitle">
-								This is a subtitle for 2.jpg.
+								This was our christmas card this year. I'm on the right and my husband, Aaron, is on the left; 
+								He is in the Airforce and currently the teaching Aircrew
+								Fundamentals course. Roscoe is a german sheperd / husky mix and is 8 years old.
+								He loves sticks and treats. Scarlet is a golden retriever is my service dog and is 4 years old.
+								Her favorite things are laser pointers and looking for antlers. Orville is the orange and tan cat
+								and he likes to eat catnip, play with bread ties, and chase Evergreen. Evergreen is the grey cat 
+								and she enjoys playing with Scarlet's tail and doing zoomies.
 							</div>
 						</div>
 					</div>
 					<div class="portfolio-item-wrapper">
-						<div class = "portfolio-img-background" style="background-image: url(images/2.jpg)"></div>
+						<div class = "portfolio-img-background" style="background-image: url(images/gwazi.jpg)"></div>
 						<div class="img-text-wrapper">
 							<div class="subtitle">
 								This is a subtitle for 3.jpg.
@@ -54,7 +60,7 @@
 						</div>
 					</div>
 					<div class="portfolio-item-wrapper">
-						<div class = "portfolio-img-background" style="background-image: url(images/3.jpg)"></div>
+						<div class = "portfolio-img-background" style="background-image: url(images/spacesuit.jpg)"></div>
 						<div class="img-text-wrapper">
 							<div class="subtitle">
 								This is a subtitle for 4.jpg.
@@ -62,7 +68,7 @@
 						</div>
 					</div>
 					<div class="portfolio-item-wrapper">
-						<div class = "portfolio-img-background" style="background-image: url(images/4.jpg)"></div>
+						<div class = "portfolio-img-background" style="background-image: url(images/snowboarding.jpg)"></div>
 						<div class="img-text-wrapper">
 							<div class="subtitle">
 								This is a subtitle for 5.jpg.
@@ -75,18 +81,16 @@
 	</body>
 	<script>
 		const portfolioItems = document.querySelectorAll('.portfolio-item-wrapper');
-	  
 		portfolioItems.forEach(portfolioItem => {
 		  portfolioItem.addEventListener('mouseover', () => {
 			console.log(portfolioItem.childNodes[1].classList)
-			portfolioItem.childNodes[1].classList.add('image-blur');
+			portfolioItem.childNodes[1].classList.add('image-blur' , 'portfolio-img-background-enlarged');
 		  });
 	  
 		  portfolioItem.addEventListener('mouseout', () => {
 			console.log(portfolioItem.childNodes[1].classList)
-			portfolioItem.childNodes[1].classList.remove('image-blur');
+			portfolioItem.childNodes[1].classList.remove('image-blur' , 'portfolio-img-background-enlarged');
 		  });
 		});
-	  
 	  </script>
 </html>
