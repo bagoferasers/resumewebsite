@@ -2,8 +2,8 @@
 body {
     font-family: "Lato", sans-serif;
     margin-top: 0px;
-    margin-left: 200px;
-    margin-right: 200px;
+    margin-left: 100px;
+    margin-right: 100px;
     margin-bottom: 0px;
 }
 
@@ -15,7 +15,7 @@ body {
 .nav-wrapper {
     display: flex;
     justify-content: space-between;
-    padding: 38px;
+    padding: 30px;
 }
 
 .left-side {
@@ -34,7 +34,7 @@ body {
 }
 
 .nav-wrapper > .right-side > div {
-    margin-left: 20px;
+    margin-right: 20px;
     font-size: 0.9em;
     text-transform: uppercase;
 }
@@ -111,14 +111,9 @@ body {
     color: white;
   }
   
-  .logo-wrapper img {
-    width: 25%;
-    margin:auto;
-  }
-  
   .two-column-wrapper {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr;
   }
   
   .profile-image-wrapper img {
