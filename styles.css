@@ -163,7 +163,7 @@ div {
 
   .profile-image-blur {
     transition: 1s;
-    filter: brightness(50%);
+    filter: brightness(70%);
   }
 
   .profile-content-animate {
@@ -216,6 +216,7 @@ div {
 /* Work Experience styels */
   .work-item-wrapper {
     margin: 1%;
+    border-radius: 30px;
   }
   
   .work-wrapper {
@@ -226,9 +227,19 @@ div {
     margin-left: 10%;
 }
 
+.work-wrapper:hover > .work-item-wrapper > .work-title-card-wrapper h1{
+  transition: 0.4s;
+  color:white;
+}
+
+.work-wrapper:hover > .work-item-wrapper > .work-title-card-wrapper p{
+  transition: 0.4s;
+  color:white;
+}
+
 .work-content-wrapper {
     padding: 30px;
-    width:fit-content;
+    width:auto;
     position: relative;
     border-color:black;
     border-width: 2px;
@@ -236,25 +247,34 @@ div {
     border-radius: 30px;
 }
 
+.work-wrapper-background-animate {
+  transition: 1s;
+  background-color: rgba(52, 88, 58, 0.534);
+}
+
 .work-title-card-wrapper {
-    padding: 10px;
+    padding: 0px;
     border-color:black;
     border-width: 2px;
     border-style: solid;
     border-radius: 30px;
-    text-align: center;
+    text-align: left;
+    padding-left: 30px;
 }
 
-.work-title-card-wrapper h1{
-    color: black;
-  }
+.work-title-card-wrapper h1, p {
 
-.work-title-card-wrapper:hover h1 {
-    color: rgb(52, 88, 58);
-  }
+  display: inline;
+  vertical-align: middle;
+  line-height: 50px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black
+}
 
   .work-content-wrapper p {
     color: rgb(0, 0, 0);
     line-height: 30px;
+    display: flex;
+    padding: 0%;
   }
-
