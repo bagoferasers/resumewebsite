@@ -213,12 +213,12 @@ div {
     line-height: 30px;
   }
 
-/* Work Experience styels */
+/* Work Experience styles */
   .work-item-wrapper {
     margin: 1%;
     border-radius: 30px;
-    margin-left: 300px;
-    margin-right: 300px;
+    margin-left: 10%;
+    margin-right: 10%;
   }
   
   .work-wrapper {
@@ -265,18 +265,20 @@ div {
 }
 
 .work-title-card-wrapper h1, p {
-
-  display: inline;
   vertical-align: middle;
-  line-height: 50px;
+  line-height: 20px;
   padding-left: 10px;
   padding-right: 10px;
-  color: black
+  color: black;
 }
 
   .work-content-wrapper p {
     color: rgb(0, 0, 0);
     line-height: 30px;
     display: flex;
+    
     padding: 0%;
+    
   }
+
+  /* Education styles */
