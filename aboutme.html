@@ -49,4 +49,50 @@
     </div>
   </div>
 </body>
+<footer>
+  <div class="container">
+    <div class="nav-wrapper">
+      <div class="middle-footer">
+        <div class="nav-link-wrapper">
+          <a href="https://www.github.com/bagoferasers" alt = "">GitHub</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="https://www.linkedin.com/in/colby-bailey-49a157241/" alt = "">LinkedIn</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="https://app.joinhandshake.com/stu/users/29831514" alt = "">Handshake</a>
+        </div>
+        <div class="nav-link-wrapper">
+          <a href="https://devpost.com/bagoferasers?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" alt = "">DevPost</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</footer>
+<script>
+  const portfolioItems = document.querySelectorAll('.profile-image-wrapper');
+  portfolioItems.forEach(portfolioItem => {
+    portfolioItem.addEventListener('mouseover', () => {
+    console.log(portfolioItem.childNodes[1].classList)
+    portfolioItem.childNodes[1].classList.add('profile-image-blur');
+    });
+  
+    portfolioItem.addEventListener('mouseout', () => {
+    console.log(portfolioItem.childNodes[1].classList)
+    portfolioItem.childNodes[1].classList.remove('profile-image-blur');
+    });
+  });
+  const profileItems = document.querySelectorAll('.profile-content-wrapper');
+  profileItems.forEach(profileItem => {
+    profileItem.addEventListener('mouseover', () => {
+    console.log(profileItem.childNodes[1].classList)
+    profileItem.childNodes[1].classList.add('profile-content-animate');
+    });
+  
+    profileItem.addEventListener('mouseout', () => {
+    console.log(profileItem.childNodes[1].classList)
+    profileItem.childNodes[1].classList.remove('profile-content-animate');
+    });
+  });
+</script>
 </html>

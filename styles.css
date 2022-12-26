@@ -26,6 +26,10 @@ body {
   display:flex;
 }
 
+.middle-footer {
+    display: flex;
+  }
+
 /* Nav styles */
 .nav-wrapper > .left-side > div {
     margin-right: 20px;
@@ -34,6 +38,12 @@ body {
 }
 
 .nav-wrapper > .right-side > div {
+    margin-right: 20px;
+    font-size: 0.9em;
+    text-transform: uppercase;
+}
+
+.nav-wrapper > .middle-footer > div {
     margin-right: 20px;
     font-size: 0.9em;
     text-transform: uppercase;
@@ -136,14 +146,26 @@ body {
     display:grid;
     grid-template-columns: 400px 500px;
   }
+
+  .profile-image-blur {
+    transition: 1s;
+    filter:brightness(70%);
+  }
+
+  .profile-content-animate {
+    transition: 1s;
+    margin-bottom: 25px;
+    width: 100%;
+  }
   
   .profile-image-wrapper img {
-      width:auto;
-      height:500px;
-      border-radius: 30px;
-      border-width: 2px;
-      border-style: solid;
-      border-color:black;
+    position: relative;
+    width:auto;
+    height:500px;
+    border-radius: 30px;
+    border-width: 2px;
+    border-style: solid;
+    border-color:black;
   }
   
   .profile-content-wrapper {
@@ -155,7 +177,7 @@ body {
     border-radius: 30px;
   }
   
-  .profile-content-wrapper h1 {
+  .profile-content-wrapper h1{
     color: black;
   }
 
