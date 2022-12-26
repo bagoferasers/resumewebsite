@@ -215,7 +215,7 @@ div {
 
 /* Work Experience styles */
   .work-item-wrapper {
-    margin: 1%;
+    margin-top: 1%;
     border-radius: 30px;
     margin-left: 10%;
     margin-right: 10%;
@@ -266,7 +266,7 @@ div {
 
 .work-title-card-wrapper h1, p {
   vertical-align: middle;
-  line-height: 20px;
+  line-height: 10px;
   padding-left: 10px;
   padding-right: 10px;
   color: black;
@@ -274,11 +274,9 @@ div {
 
   .work-content-wrapper p {
     color: rgb(0, 0, 0);
-    line-height: 30px;
+    line-height: 20px;
     display: flex;
-    
     padding: 0%;
-    
   }
 
   /* Education styles */
