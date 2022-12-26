@@ -133,12 +133,12 @@
 		portfolioItems.forEach(portfolioItem => {
 		  portfolioItem.addEventListener('mouseover', () => {
 			console.log(portfolioItem.childNodes[1].classList)
-			portfolioItem.childNodes[1].classList.add('image-blur' , 'portfolio-img-background-enlarged');
+			portfolioItem.childNodes[1].classList.add('image-blur', 'portfolio-img-background-enlarged');
 		  });
 	  
 		  portfolioItem.addEventListener('mouseout', () => {
 			console.log(portfolioItem.childNodes[1].classList)
-			portfolioItem.childNodes[1].classList.remove('image-blur' , 'portfolio-img-background-enlarged');
+			portfolioItem.childNodes[1].classList.remove('image-blur', 'portfolio-img-background-enlarged');
 		  });
 		});
 	  </script>

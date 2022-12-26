@@ -2,8 +2,8 @@
 body {
     font-family: "Lato", sans-serif;
     margin-top: 0px;
-    margin-left: 5px;
-    margin-right: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
     margin-bottom: 0px;
 }
 
@@ -56,15 +56,15 @@ body {
 }
 
 .active-nav-link {
-    border-bottom: 1px solid black;
+    border-bottom: 1px solid rgb(0, 0, 0);
 }
   
 .active-nav-link a {
-    color: black !important;
+    color: rgb(0, 0, 0) !important;
 }
 
 .nav-link-wrapper a {
-    color: #8a8a8a;
+    color: grey;
     text-decoration: none;
     transition: 0.5s;
 }
@@ -74,7 +74,7 @@ body {
 }
 
 .nav-link-wrapper a:hover {
-    color:black;
+    color:grey;
 }
 
 /* Portfolio styles */
@@ -110,14 +110,16 @@ body {
     align-items: center;
     height:100%;
     width:100%;
-    text-align: center;
+    text-align: left;
+    font-size: 20px;
 }
 
 .img-text-wrapper .subtitle {
     transition: 1s;
     color: transparent;
-    margin-left: 50px;
-    margin-right: 50px;
+    margin-left: 10%;
+    margin-right: 10%;
+    padding: 30px;
 }
 
 .image-blur {
@@ -126,8 +128,6 @@ body {
   }
 
   .portfolio-img-background-enlarged {
-    height: 605px;
-    width: auto;
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
@@ -138,24 +138,30 @@ body {
   }
   
   .img-text-wrapper:hover .subtitle {
-    color: white;
+    color: rgb(255, 255, 255);
+    background-color: rgba(52, 88, 58, 0.534);
+    border-radius:30px;
+    font-size: 20px;
   }
   
   /* Profile styles */
   .two-column-wrapper {
     display:grid;
-    grid-template-columns: 400px 500px;
+    grid-template-columns: 400px 1fr;
   }
 
   .profile-image-blur {
     transition: 1s;
-    filter:brightness(70%);
+    filter: brightness(50%);
   }
 
   .profile-content-animate {
     transition: 1s;
+    transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
     margin-bottom: 25px;
+    margin-top: 25px;
     width: 100%;
+    border-color: rgb(52, 88, 58);
   }
   
   .profile-image-wrapper img {
@@ -167,10 +173,16 @@ body {
     border-style: solid;
     border-color:black;
   }
+
+  .profile-image-wrapper:hover img {
+    border-width: 2px;
+    border-color:rgb(52, 88, 58);
+  }
   
   .profile-content-wrapper {
     padding: 30px;
-    width: 100%;
+    width:fit-content;
+    position: relative;
     border-color:black;
     border-width: 2px;
     border-style: solid;
@@ -179,6 +191,15 @@ body {
   
   .profile-content-wrapper h1{
     color: black;
+  }
+
+  .profile-content-wrapper:hover h1 {
+    color: rgb(52, 88, 58);
+  }
+
+  .profile-content-wrapper p {
+    color: rgb(0, 0, 0);
+    line-height: 30px;
   }
 
   div {
