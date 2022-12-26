@@ -7,6 +7,10 @@ body {
     margin-bottom: 0px;
 }
 
+div {
+    cursor: url('images/heart.svg') 16 16, pointer;
+  }
+
 .container {
     display: grid;
     grid-template-columns: 1fr;
@@ -28,6 +32,7 @@ body {
 
 .middle-footer {
     display: flex;
+    margin:auto;
   }
 
 /* Nav styles */
@@ -82,11 +87,15 @@ body {
 .portfolio-items-wrapper {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    margin: 1%;
 }
 
 .portfolio-item-wrapper {
     position: relative;
-    margin: 1%;
+    margin-top:0px;
+    margin-right: 1%;
+    margin-left: 1%;
+    margin-bottom: 1%;
 }
 
 .portfolio-img-background {
@@ -111,7 +120,7 @@ body {
     height:100%;
     width:100%;
     text-align: left;
-    font-size: 20px;
+    font-size: 18px;
 }
 
 .img-text-wrapper .subtitle {
@@ -134,20 +143,22 @@ body {
     border-radius: 30px;
     border-style:solid;
     border-color: rgb(255, 255, 255);
-    border-width: 8px;
+    border-width: 2px;
   }
   
   .img-text-wrapper:hover .subtitle {
     color: rgb(255, 255, 255);
     background-color: rgba(52, 88, 58, 0.534);
     border-radius:30px;
-    font-size: 20px;
   }
   
   /* Profile styles */
   .two-column-wrapper {
     display:grid;
     grid-template-columns: 400px 1fr;
+    margin-top: 1%;
+    margin-left: 20%;
+    margin-right: 20%;
   }
 
   .profile-image-blur {
@@ -202,6 +213,48 @@ body {
     line-height: 30px;
   }
 
-  div {
-    cursor: url('images/heart.svg') 16 16, pointer;
+/* Work Experience styels */
+  .work-item-wrapper {
+    margin: 1%;
   }
+  
+  .work-wrapper {
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-top:0px;
+    margin-right: 20%;
+    margin-left: 20%;
+}
+
+.work-content-wrapper {
+    padding: 30px;
+    width:fit-content;
+    position: relative;
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+}
+
+.work-title-card-wrapper {
+    padding: 10px;
+    border-color:black;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 30px;
+    text-align: center;
+}
+
+.work-title-card-wrapper h1{
+    color: black;
+  }
+
+.work-title-card-wrapper:hover h1 {
+    color: rgb(52, 88, 58);
+  }
+
+  .work-content-wrapper p {
+    color: rgb(0, 0, 0);
+    line-height: 30px;
+  }
+
