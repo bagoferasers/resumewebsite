@@ -144,7 +144,7 @@ body {
   /* Profile styles */
   .two-column-wrapper {
     display:grid;
-    grid-template-columns: 400px 500px;
+    grid-template-columns: 400px 1fr;
   }
 
   .profile-image-blur {
@@ -170,7 +170,8 @@ body {
   
   .profile-content-wrapper {
     padding: 30px;
-    width: 100%;
+    width:fit-content;
+    position: relative;
     border-color:black;
     border-width: 2px;
     border-style: solid;
