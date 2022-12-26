@@ -157,8 +157,8 @@ div {
     display:grid;
     grid-template-columns: 400px 1fr;
     margin-top: 1%;
-    margin-left: 20%;
-    margin-right: 20%;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .profile-image-blur {
@@ -222,8 +222,8 @@ div {
     display:grid;
     grid-template-columns: 1fr;
     margin-top:0px;
-    margin-right: 20%;
-    margin-left: 20%;
+    margin-right: 10%;
+    margin-left: 10%;
 }
 
 .work-content-wrapper {

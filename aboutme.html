@@ -89,6 +89,7 @@
 <script>
   const portfolioItems = document.querySelectorAll('.profile-image-wrapper');
   portfolioItems.forEach(portfolioItem => {
+
     portfolioItem.addEventListener('mouseover', () => {
     console.log(portfolioItem.childNodes[1].classList)
     portfolioItem.childNodes[1].classList.add('profile-image-blur');
@@ -98,21 +99,26 @@
     console.log(portfolioItem.childNodes[1].classList)
     portfolioItem.childNodes[1].classList.remove('profile-image-blur');
     });
+
   });
 
   const profileItems = document.querySelectorAll('.profile-content-wrapper');
   profileItems.forEach(profileItem => {
+
     profileItem.addEventListener('mouseover', () => {
     console.log(profileItem.childNodes[1].classList)
     profileItem.childNodes[1].classList.add('profile-content-animate');
     });
-  
+
     profileItem.addEventListener('mouseout', () => {
     console.log(profileItem.childNodes[1].classList)
     profileItem.childNodes[1].classList.remove('profile-content-animate');
     });
+
   });
 </script>
+
 <span id="siteseal">
 <script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=7MMM54KjnwMXZ1ICmN8H5ayxQXAX3A9ogJeflUb2uLC9moBbtft8o3x7gbbF"></script></span>
+
 </html>
