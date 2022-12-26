@@ -16,10 +16,18 @@ div {
     grid-template-columns: 1fr;
 }
 
-.nav-wrapper {
+.nav-wrapper-top {
     display: flex;
     justify-content: space-between;
     padding: 30px;
+    border-bottom: 2px solid black;
+    border-radius: 30px;
+}
+
+.nav-wrapper {
+  display: flex;
+  justify-content: space-between;
+  padding: 30px;
 }
 
 .left-side {
@@ -32,23 +40,29 @@ div {
 
 .middle-footer {
     display: flex;
-    margin:auto;
+    margin: auto;
   }
 
 /* Nav styles */
-.nav-wrapper > .left-side > div {
+.nav-wrapper-top > .left-side > div {
     margin-right: 20px;
     font-size: 0.9em;
     text-transform: uppercase;
 }
 
-.nav-wrapper > .right-side > div {
+.nav-wrapper-top > .right-side > div {
     margin-right: 20px;
     font-size: 0.9em;
     text-transform: uppercase;
 }
 
 .nav-wrapper > .middle-footer > div {
+  margin-right: 20px;
+  font-size: 0.9em;
+  text-transform: uppercase;
+}
+
+.nav-wrapper-top > .middle-footer > div {
     margin-right: 20px;
     font-size: 0.9em;
     text-transform: uppercase;
@@ -167,10 +181,10 @@ div {
   }
 
   .profile-content-animate {
-    transition: 1s;
+    transition: 0.4s;
     transition-timing-function: cubic-bezier(0.175, 0.885, 0.32, 1.275);
-    margin-bottom: 25px;
-    margin-top: 25px;
+    margin-bottom: 24px;
+    margin-top: 24px;
     width: 100%;
     border-color: rgb(52, 88, 58);
   }
@@ -202,6 +216,7 @@ div {
   
   .profile-content-wrapper h1{
     color: black;
+    margin-left: 10px;
   }
 
   .profile-content-wrapper:hover h1 {
@@ -250,7 +265,7 @@ div {
 }
 
 .work-wrapper-background-animate {
-  transition: 1s;
+  transition: 0.4s;
   background-color: rgba(52, 88, 58, 0.534);
 }
 
@@ -280,3 +295,87 @@ div {
   }
 
   /* Education styles */
+  .schooling-wrapper {
+    display:grid;
+    grid-template-columns: 1fr;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 0px;
+}
+
+.schooling-item-wrapper {
+  margin-top: 1%;
+  border-radius: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.schooling-wrapper-text {
+  padding: 0px;
+  border-color:black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.schooling-wrapper:hover {
+  transition: 0.4s;
+  margin-right: 9%;
+  margin-left: 9%;
+}
+
+.schooling-wrapper-text:hover h1 {
+  color: rgb(52, 88, 58);
+  transition: 0.4s;
+}
+
+.schooling-content-wrapper {
+  grid-template-columns: 1fr;
+}
+
+.schooling-course-wrapper{
+  grid-template-columns: 1fr 1fr 1fr 1fr;
+  display:grid;
+  margin-right: 20%;
+  margin-left: 20%;
+  margin-top: 0px;
+}
+
+.schooling-course-item-wrapper{
+  margin-top: 10%;
+  border-radius: 30px;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.schooling-course-wrapper-text:hover {
+  transition: 0.4s;
+  background-color: rgba(52, 88, 58, 0.534);
+}
+
+.schooling-course-wrapper-text{
+  padding: 0px;
+  border-color:rgb(0, 0, 0);
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  text-align: center;
+}
+
+.schooling-course-wrapper-text p {
+  line-height: 20px;
+}
+
+.courses-text-wrapper h1{
+  margin-top: 5%;
+  text-align: center;
+  border-bottom: 1px solid black;
+  line-height: 60px;
+  border-width: 2px;
+  margin-left: 18%;
+  margin-right: 18%;
+  word-wrap:normal;
+}
+
