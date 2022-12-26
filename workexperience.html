@@ -7,8 +7,11 @@
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
+
   <div class="container">
+
     <div class="nav-wrapper">
+
       <div class="left-side">
         <div class="nav-link-wrapper">
           <a href="index.html">Home</a>
@@ -20,12 +23,13 @@
             <a href="workexperience.html">Work Experience</a>
           </div>
           <div class="nav-link-wrapper">
-            <a href="courses.html">Courses Taken</a>
+            <a href="courses.html">Education</a>
         </div>
         <div class="nav-link-wrapper">
             <a href="projects.html">Projects</a>
         </div>
       </div>
+
       <div class="right-side">
         <div class="email">
             <div>ctrull60@gmail.com</div>
@@ -34,9 +38,114 @@
           Colby Bailey
         </div>
       </div>
+
     </div>
+
+    <div class="content-wrapper">
+
+      <div class="work-wrapper">
+
+        <div class="work-item-wrapper">
+          <div class="work-title-card-wrapper">
+            <h1>United States Air Force</h1>
+            <p>( Tactical Radio Transmission Systems Supervisor )</p>
+          </div>
+        </div>
+
+        <div class="work-item-wrapper">
+          <div class="work-content-wrapper" >
+            <p>- Directly supervised four coworkers. Promoted horizontal and vertical development through professional coaching. Tracked
+              work performance, provided mentorship, and administered scheduled feedback sessions.
+            </p>
+            <p>
+              - Led cross-organizational training for the setup of Extremely High Frequency satellite communications systems, ensuring
+              continuity between different organizations while in diverse, high-stress environments.
+            </p>
+            <p>
+              - Managed communication security equipment while maintaining an active Top Secret ( Sensitive Compartmented Information )
+              clearance.
+            </p>
+            <p>
+              - Cross-functional team member that rejuvinated the Environmental Management Program, validated training completion,
+              and raised company compliance from 70% to 99%.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+      <div class="work-wrapper">
+
+        <div class="work-item-wrapper">
+          <div class="work-title-card-wrapper">
+            <h1>United States Air Force</h1>
+            <p>( Tactical Radio Transmission Systems Technician )</p>
+          </div>
+        </div>
+
+        <div class="work-item-wrapper">
+          <div class="work-content-wrapper" >
+            <p>- Deployed, maintained, troubleshot, and repaired $8.1 million worth of line-of-sight, beyond line-of-sight, satellite,
+              and encrypted radio frequency devices in fixed and deployed environments.
+            </p>
+            <p>
+              - Deployed 290 days; Relocated four times to new work environments, strengthening experience, and adapting to change
+              and strengthening diversity.
+            </p>
+            <p>
+              - Team building experience as a resiliency trainer. Motivated coworkers by teaching them how to overcome barriers and
+              remain resilient throughout life by employing good practices.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+
+      <div class="work-wrapper">
+
+        <div class="work-item-wrapper">
+          <div class="work-title-card-wrapper">
+            <h1>Alternative Services of Oregon</h1>
+            <p>( Caregiver )</p>
+          </div>
+        </div>
+
+        <div class="work-item-wrapper">
+          <div class="work-content-wrapper" >
+            <p>
+              - Cared for five mentally disabled individuals. Ensured they had an improved quality of life and all 
+              their specific needs met.
+            </p>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
   </div>
 </body>
+
+
+<script>
+  const portfolioItems = document.querySelectorAll('.work-wrapper');
+  portfolioItems.forEach(portfolioItem => {
+
+    portfolioItem.addEventListener('mouseover', () => {
+    console.log(portfolioItem.childNodes[1].classList)
+    portfolioItem.childNodes[1].classList.add('work-wrapper-background-animate');
+    });
+  
+    portfolioItem.addEventListener('mouseout', () => {
+    console.log(portfolioItem.childNodes[1].classList)
+    portfolioItem.childNodes[1].classList.remove('work-wrapper-background-animate');
+    });
+
+  });
+</script>
+
+
 <span id="siteseal">
 <script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=7MMM54KjnwMXZ1ICmN8H5ayxQXAX3A9ogJeflUb2uLC9moBbtft8o3x7gbbF"></script></span>
 </html>

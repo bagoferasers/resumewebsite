@@ -24,7 +24,7 @@
           <a href="workexperience.html">Work Experience</a>
         </div>
         <div class="nav-link-wrapper">
-          <a href="courses.html">Courses Taken</a>
+          <a href="courses.html">Education</a>
         </div>
         <div class="nav-link-wrapper">
           <a href="projects.html">Projects</a>
@@ -68,16 +68,16 @@
 
       <div class="middle-footer">
         <div class="nav-link-wrapper">
-          <a href="https://www.github.com/bagoferasers" alt = "">GitHub</a>
+          <a href="https://www.github.com/bagoferasers" alt = "" target="_blank" rel="noopener noreferrer">GitHub</a>
         </div>
         <div class="nav-link-wrapper">
-          <a href="https://www.linkedin.com/in/colby-bailey-49a157241/" alt = "">LinkedIn</a>
+          <a href="https://www.linkedin.com/in/colby-bailey-49a157241/" alt = "" target="_blank" rel="noopener noreferrer">LinkedIn</a>
         </div>
         <div class="nav-link-wrapper">
-          <a href="https://app.joinhandshake.com/stu/users/29831514" alt = "">Handshake</a>
+          <a href="https://app.joinhandshake.com/stu/users/29831514" alt = "" target="_blank" rel="noopener noreferrer">Handshake</a>
         </div>
         <div class="nav-link-wrapper">
-          <a href="https://devpost.com/bagoferasers?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" alt = "">DevPost</a>
+          <a href="https://devpost.com/bagoferasers?ref_content=user-portfolio&ref_feature=portfolio&ref_medium=global-nav" alt = "" target="_blank" rel="noopener noreferrer">DevPost</a>
         </div>
       </div>
 
@@ -89,6 +89,7 @@
 <script>
   const portfolioItems = document.querySelectorAll('.profile-image-wrapper');
   portfolioItems.forEach(portfolioItem => {
+
     portfolioItem.addEventListener('mouseover', () => {
     console.log(portfolioItem.childNodes[1].classList)
     portfolioItem.childNodes[1].classList.add('profile-image-blur');
@@ -98,21 +99,26 @@
     console.log(portfolioItem.childNodes[1].classList)
     portfolioItem.childNodes[1].classList.remove('profile-image-blur');
     });
+
   });
 
   const profileItems = document.querySelectorAll('.profile-content-wrapper');
   profileItems.forEach(profileItem => {
+
     profileItem.addEventListener('mouseover', () => {
     console.log(profileItem.childNodes[1].classList)
     profileItem.childNodes[1].classList.add('profile-content-animate');
     });
-  
+
     profileItem.addEventListener('mouseout', () => {
     console.log(profileItem.childNodes[1].classList)
     profileItem.childNodes[1].classList.remove('profile-content-animate');
     });
+
   });
 </script>
+
 <span id="siteseal">
 <script async type="text/javascript" src="https://seal.godaddy.com/getSeal?sealID=7MMM54KjnwMXZ1ICmN8H5ayxQXAX3A9ogJeflUb2uLC9moBbtft8o3x7gbbF"></script></span>
+
 </html>
