@@ -217,7 +217,7 @@ div {
   
   .profile-content-wrapper h1{
     color: black;
-    margin-left: 10px;
+    font-size: large;
   }
 
   .profile-content-wrapper:hover h1 {
@@ -405,11 +405,12 @@ div {
   border-style: solid;
   border-radius: 30px;
   text-align: center;
+  font-size:medium;
 }
 
 .schooling-course-wrapper-text p {
   line-height: 20px;
-  font-size:medium;
+  padding: 2%;
 }
 
 .courses-text-wrapper h1{
@@ -419,5 +420,5 @@ div {
   line-height: 60px;
   margin-left: 18%;
   margin-right: 18%;
-  word-wrap:normal;
+  word-wrap:break-word;
 }
