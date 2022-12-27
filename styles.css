@@ -134,7 +134,7 @@ div {
     height:100%;
     width:100%;
     text-align: left;
-    font-size: 18px;
+    font-size: medium;
 }
 
 .img-text-wrapper .subtitle {
@@ -143,6 +143,7 @@ div {
     margin-left: 10%;
     margin-right: 10%;
     padding: 30px;
+    border-radius:30px;
 }
 
 .image-blur {
@@ -226,6 +227,7 @@ div {
   .profile-content-wrapper p {
     color: rgb(0, 0, 0);
     line-height: 30px;
+    font-size: medium;
   }
 
   .awards-honors-wrapper{
@@ -295,12 +297,22 @@ div {
     padding-left: 30px;
 }
 
-.work-title-card-wrapper h1, p {
+.work-title-card-wrapper h1 {
   vertical-align: middle;
   line-height: 10px;
   padding-left: 10px;
   padding-right: 10px;
   color: black;
+  font-size:large;
+}
+
+.work-title-card-wrapper p {
+  vertical-align: middle;
+  line-height: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+  font-size:medium;
 }
 
   .work-content-wrapper p {
@@ -308,6 +320,8 @@ div {
     line-height: 20px;
     display: flex;
     padding: 0%;
+    font-size: medium;
+    line-height: 30px;
   }
 
   /* Education styles */
@@ -334,6 +348,14 @@ div {
   border-radius: 30px;
   text-align: left;
   padding-left: 30px;
+}
+
+.schooling-wrapper-text h1{
+  font-size: large;
+}
+
+.schooling-wrapper-text p{
+  font-size: medium;
 }
 
 .schooling-wrapper:hover {
@@ -387,6 +409,7 @@ div {
 
 .schooling-course-wrapper-text p {
   line-height: 20px;
+  font-size:medium;
 }
 
 .courses-text-wrapper h1{
