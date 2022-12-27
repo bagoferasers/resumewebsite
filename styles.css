@@ -147,7 +147,7 @@ div {
 }
 
 .image-blur {
-    transition: 1s;
+    transition: 0.4s;
     filter: brightness(10%);
   }
 
@@ -177,7 +177,7 @@ div {
   }
 
   .profile-image-blur {
-    transition: 1s;
+    transition: 0.4s;
     filter: brightness(70%);
   }
 
