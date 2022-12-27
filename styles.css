@@ -228,6 +228,22 @@ div {
     line-height: 30px;
   }
 
+  .awards-honors-wrapper{
+    grid-template-columns: 1fr 1fr;
+    display:grid;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 0px;
+  }
+
+  .awards-honors-item-wrapper{
+    margin-top: 3%;
+    border-radius: 30px;
+
+    margin-left: 10%;
+    margin-right: 10%
+  }
+
 /* Work Experience styles */
   .work-item-wrapper {
     margin-top: 1%;
@@ -344,7 +360,7 @@ div {
 }
 
 .schooling-course-item-wrapper{
-  margin-top: 10%;
+  margin-top: 3%;
   border-radius: 30px;
   margin-left: 10%;
   margin-right: 10%;
