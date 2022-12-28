@@ -204,20 +204,12 @@ span {
     max-height: 440px;
     font-size: medium;
   }
-
   .profile-content-wrapper h1{
     line-height: 35px;
-  }
-
-<<<<<<< Updated upstream
-=======
-  .profile-content-wrapper p{
-    font-size: medium;
   }
   .courses-text-wrapper{
     font-size: medium;
   }
->>>>>>> Stashed changes
 }
 
 @media (min-width: 2000px) {
