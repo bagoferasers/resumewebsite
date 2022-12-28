@@ -16,15 +16,19 @@ span {
 
   /* Navigation Bars */
   .nav-wrapper-top {
-    font-size: large;
+    font-size: x-large;
     display: grid;
     grid-template-columns: 1fr;
   }
   .middle-footer {
-    font-size: large;
+    font-size: x-large;
   }
   .nav-wrapper-top > .left-side {
-    margin-bottom: 2%;
+    margin-bottom: 4%;
+  }
+
+  .nav-link-wrapper {
+    height: 30px;
   }
 
   /* Profile */
@@ -37,34 +41,27 @@ span {
   }
 
   .profile-image-wrapper{
-    margin-left: auto;
-    margin-right: auto;
+    margin-left: 1%;
+    margin-right: 1%;
     margin-top: 1%;
   }
 
   .profile-image-wrapper img {
     width:auto;
-    height: 1000px;
+    height: 1250px;
   }
 
   .profile-content-wrapper{
     margin-left: 1%;
     margin-right: 1%;
     margin-top: 1%;
-    max-width: 690px;
-    margin-left: auto;
-    margin-right: auto;
+    max-width: 890px;
+    font-size: xx-large;
   }
 
   .profile-content-wrapper h1{
-    font-size: x-large;
+    line-height: 60px;
   }
-
-  .profile-content-wrapper p{
-    font-size: larger;
-  }
-
-
 }
 
 @media (min-width: 1000px) {
@@ -78,21 +75,26 @@ span {
 
   /* Navigation Bars */
   .nav-wrapper-top {
-    font-size: large;
+    font-size: medium;
     display: flex;
   }
   .middle-footer {
-    font-size: large;
+    font-size: medium;
   }
 
   .nav-wrapper-top > .left-side {
     margin-bottom: 0%;
   }
 
+  .nav-link-wrapper {
+    height: 25px;
+  }
+
   /* Profile */
   .two-column-wrapper {
-    font-size: large;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(1, 1fr);
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .awards-honors-wrapper{
@@ -100,31 +102,23 @@ span {
   }
 
   .profile-image-wrapper{
-    margin-left: 5%;
-    margin-right: 1%;
-    margin-top: 1%;
+    margin-top: 1%;    
+    margin-left:auto;
+    margin-right: auto;
   }
 
   .profile-image-wrapper img {
-    width:auto;
     height: 460px;
   }
 
   .profile-content-wrapper{
-    margin-left: -15%;
-    margin-right: 5%;
     margin-top: 1%;
-    min-width: 450px;
-    max-width: 800px;
-    max-height: 400px;
-  }
-
-  .profile-content-wrapper h1{
-    font-size: large;
-  }
-
-  .profile-content-wrapper p{
+    margin-right: auto;
+    margin-left: auto;
     font-size: medium;
+  }
+  .profile-content-wrapper h1{
+    line-height: 35px;
   }
 }
 
@@ -150,10 +144,15 @@ span {
     margin-bottom: 0%;
   }
 
+  .nav-link-wrapper {
+    height: 25px;
+  }
+
   /* Profile */
   .two-column-wrapper {
-    font-size: medium;
     grid-template-columns: repeat(2, 1fr);
+    margin-left: 10%;
+    margin-right: 10%;
   }
 
   .awards-honors-wrapper{
@@ -161,7 +160,7 @@ span {
   }
 
   .profile-image-wrapper{
-    margin-left: 20%;
+    margin-left: 5%;
     margin-right: 1%;
     margin-top: 1%;
   }
@@ -172,21 +171,16 @@ span {
   }
 
   .profile-content-wrapper{
-    margin-left: -25%;
-    margin-right: 20%;
+    margin-left: -20%;
     margin-top: 1%;
-    min-width: 680px;
-    max-width: 950px;
-    max-height: 450px;
+    max-height: 440px;
+    font-size: medium;
   }
 
   .profile-content-wrapper h1{
-    font-size: large;
+    line-height: 35px;
   }
 
-  .profile-content-wrapper p{
-    font-size: medium;
-  }
 }
 
 @media (min-width: 2000px) {
@@ -211,9 +205,12 @@ span {
     margin-bottom: 0%;
   }
 
+  .nav-link-wrapper {
+    height: 25px;
+  }
+
   /* Profile */
   .two-column-wrapper {
-    font-size: medium;
     grid-template-columns: repeat(2, 1fr);
   }
 
@@ -269,7 +266,6 @@ div {
 }
 
 .nav-wrapper-top {
-    /*display: flex;*/
     justify-content: space-between;
     padding: 30px;
     border-bottom: 2px solid black;
@@ -300,30 +296,26 @@ div {
 /* Nav styles */
 .nav-wrapper-top > .left-side > div {
     margin-right: 20px;
-    font-size: 0.9em;
     text-transform: uppercase;
 }
 
 .nav-wrapper-top > .right-side > div {
     margin-right: 20px;
-    font-size: 0.9em;
     text-transform: uppercase;
 }
 
 .nav-wrapper > .middle-footer > div {
   margin-right: 20px;
-  font-size: 0.9em;
   text-transform: uppercase;
 }
 
 .nav-wrapper-top > .middle-footer > div {
     margin-right: 20px;
-    font-size: 0.9em;
     text-transform: uppercase;
 }
 
 .nav-link-wrapper {
-    height: 22px;
+    /*height: 22px;*/
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -460,7 +452,6 @@ div {
   
   .profile-content-wrapper h1{
     vertical-align: middle;
-    line-height: 20px;
     color: black;
     display: flex;
   }
