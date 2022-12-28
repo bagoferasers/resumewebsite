@@ -85,6 +85,10 @@ span {
     font-size: large;
   }
 
+  .nav-wrapper-top > .left-side {
+    margin-bottom: 0%;
+  }
+
   /* Profile */
   .two-column-wrapper {
     font-size: large;
@@ -142,6 +146,10 @@ span {
     font-size: medium;
   }
 
+  .nav-wrapper-top > .left-side {
+    margin-bottom: 0%;
+  }
+
   /* Profile */
   .two-column-wrapper {
     font-size: medium;
@@ -197,6 +205,10 @@ span {
   }
   .middle-footer {
     font-size: medium;
+  }
+
+  .nav-wrapper-top > .left-side {
+    margin-bottom: 0%;
   }
 
   /* Profile */
