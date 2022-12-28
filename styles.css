@@ -116,6 +116,15 @@ span {
     grid-template-columns: repeat(2, 1fr);
   }
 
+  .awards-honors-item-wrapper{
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .awards-honors-item-wrapper > .schooling-course-wrapper-text p{
+    font-size: medium;
+  }
+
   .profile-image-wrapper{
     margin-top: 1%;    
     margin-left:auto;
@@ -134,6 +143,10 @@ span {
   }
   .profile-content-wrapper h1{
     line-height: 35px;
+  }
+
+  .courses-text-wrapper{
+    font-size: medium;
   }
 }
 
@@ -196,6 +209,15 @@ span {
     line-height: 35px;
   }
 
+<<<<<<< Updated upstream
+=======
+  .profile-content-wrapper p{
+    font-size: medium;
+  }
+  .courses-text-wrapper{
+    font-size: medium;
+  }
+>>>>>>> Stashed changes
 }
 
 @media (min-width: 2000px) {
@@ -231,6 +253,10 @@ span {
 
   .awards-honors-wrapper{
     grid-template-columns: repeat(4, 1fr);
+  }
+
+  .awards-honors-item-wrapper > .schooling-course-wrapper-text p{
+    font-size: medium;
   }
 
   .profile-image-wrapper{
