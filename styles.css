@@ -38,6 +38,17 @@ span {
 
   .awards-honors-wrapper{
     grid-template-columns: repeat(1, 1fr);
+    margin-right: 5%;
+    margin-left: 5%;
+  }
+
+  .awards-honors-item-wrapper > .schooling-course-wrapper-text p{
+    font-size: x-large;
+  }
+
+  .schooling-course-wrapper-text p {
+    font-size: x-large;
+    line-height: 60px;
   }
 
   .profile-image-wrapper{
@@ -56,11 +67,15 @@ span {
     margin-right: 1%;
     margin-top: 1%;
     max-width: 890px;
-    font-size: xx-large;
+    font-size: x-large;
   }
 
   .profile-content-wrapper h1{
     line-height: 60px;
+  }
+
+  .courses-text-wrapper{
+    font-size: x-large;
   }
 }
 
@@ -469,16 +484,12 @@ div {
 
   .awards-honors-wrapper{
     display:grid;
-    margin-right: 10%;
-    margin-left: 10%;
     margin-top: 0px;
   }
 
   .awards-honors-item-wrapper{
     margin-bottom: 2%;
     border-radius: 30px;
-    margin-left: 10%;
-    margin-right: 10%
   }
 
 /* Work Experience styles */
