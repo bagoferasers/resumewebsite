@@ -77,6 +77,31 @@ span {
   .courses-text-wrapper{
     font-size: x-large;
   }
+
+  /* Work Experience */
+  .work-item-wrapper{
+    font-size: x-large;
+  }
+
+  /* Schooling */
+  
+  .schooling-item-wrapper {
+    margin-left: 1%;
+    margin-right: 1%;
+  }
+
+  .schooling-wrapper:hover {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .schooling-wrapper{
+    font-size: x-large;
+  }
+
+  .schooling-item-wrapper > .schooling-wrapper-text h1 {
+    line-height: 60px;
+  }
 }
 
 @media (min-width: 1000px) {
@@ -153,6 +178,29 @@ span {
   .work-item-wrapper {
     margin-left: 5%;
     margin-right: 5%;
+    font-size: medium;
+  }
+  
+  /* Schooling */
+  
+  .schooling-item-wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
+
+  .schooling-wrapper:hover {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .schooling-wrapper{
+    font-size: medium;
+  }
+
+  .schooling-course-wrapper{
+    grid-template-columns: 1fr 1fr;
+    margin-left: 5%;
+    margin-right: 5%;
   }
 }
 
@@ -225,6 +273,29 @@ span {
   .work-item-wrapper {
     margin-left: 15%;
     margin-right: 15%;
+    font-size: medium;
+  }
+    
+  /* Schooling */
+  
+  .schooling-item-wrapper {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
+
+  .schooling-wrapper:hover {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .schooling-wrapper{
+    font-size: medium;
+  }
+  
+  .schooling-course-wrapper{
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
@@ -295,6 +366,29 @@ span {
   .work-item-wrapper {
     margin-left: 25%;
     margin-right: 25%;
+    font-size: medium;
+  }
+    
+  /* Schooling */
+  
+  .schooling-item-wrapper {
+    margin-left: 25%;
+    margin-right: 25%;
+  }
+
+  .schooling-wrapper:hover {
+    margin-left: 0%;
+    margin-right: 0%;
+  }
+
+  .schooling-wrapper{
+    font-size: medium;
+  }
+  
+  .schooling-course-wrapper{
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin-left: 10%;
+    margin-right: 10%;
   }
 }
 
@@ -584,7 +678,6 @@ div {
   padding-left: 10px;
   padding-right: 10px;
   color: black;
-  font-size:large;
 }
 
 .work-title-card-wrapper p {
@@ -593,7 +686,6 @@ div {
   padding-left: 10px;
   padding-right: 10px;
   color: black;
-  font-size:medium;
 }
 
   .work-content-wrapper p {
@@ -601,7 +693,6 @@ div {
     line-height: 20px;
     display: flex;
     padding: 0%;
-    font-size: medium;
     line-height: 30px;
   }
 
@@ -609,15 +700,13 @@ div {
   .schooling-wrapper {
     display:grid;
     grid-template-columns: 1fr;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-right: 1%;
+    margin-left: 1%;
     margin-top: 0px;
 }
 
 .schooling-item-wrapper {
   margin-top: 1%;
-  margin-left: 10%;
-  margin-right: 10%;
 }
 
 .schooling-wrapper-text {
@@ -635,7 +724,6 @@ div {
   padding-left: 10px;
   padding-right: 10px;
   color: black;
-  font-size:large;
   display: flex;
 }
 
@@ -645,14 +733,11 @@ div {
   padding-left: 10px;
   padding-right: 10px;
   color: black;
-  font-size:medium;
   display: flex;
 }
 
 .schooling-wrapper:hover {
   transition: 0.4s;
-  margin-right: 9%;
-  margin-left: 9%;
 }
 
 .schooling-wrapper-text:hover h1 {
@@ -665,11 +750,9 @@ div {
 }
 
 .schooling-course-wrapper{
-  grid-template-columns: 1fr 1fr;
   display:grid;
-  margin-right: 16%;
-  margin-left: 16%;
   margin-top: 0px;
+  margin-bottom: 1%;
 }
 
 .schooling-course-item-wrapper{
@@ -694,7 +777,6 @@ div {
   border-width: 2px;
   border-style: solid;
   border-radius: 30px;
-  font-size:medium;
 }
 
 .schooling-course-wrapper-text p {
@@ -703,7 +785,6 @@ div {
   padding-left: 10px;
   margin: 2%;
   color: black;
-  font-size:medium;
   display: flex;
 }
 
