@@ -148,6 +148,12 @@ span {
   .courses-text-wrapper{
     font-size: medium;
   }
+
+  /* Work Experience */
+  .work-item-wrapper {
+    margin-left: 5%;
+    margin-right: 5%;
+  }
 }
 
 @media (min-width: 1500px) {
@@ -214,6 +220,12 @@ span {
   .courses-text-wrapper{
     font-size: medium;
   }
+  
+  /* Work Experience */
+  .work-item-wrapper {
+    margin-left: 15%;
+    margin-right: 15%;
+  }
 }
 
 @media (min-width: 2000px) {
@@ -277,6 +289,12 @@ span {
   }
   .courses-text-wrapper{
     font-size: medium;
+  }
+  
+  /* Work Experience */
+  .work-item-wrapper {
+    margin-left: 25%;
+    margin-right: 25%;
   }
 }
 
@@ -348,7 +366,6 @@ div {
 }
 
 .nav-link-wrapper {
-    /*height: 22px;*/
     border-bottom: 1px solid transparent;
     transition: border-bottom 0.5s;
 }
@@ -440,6 +457,7 @@ div {
   }
   
   /* Profile styles */
+
   .two-column-wrapper {
     display: grid;
   }
@@ -511,19 +529,18 @@ div {
   }
 
 /* Work Experience styles */
+
   .work-item-wrapper {
-    margin-top: 1%;
+    margin-bottom: 1%;
     border-radius: 30px;
-    margin-left: 10%;
-    margin-right: 10%;
   }
   
   .work-wrapper {
     display:grid;
     grid-template-columns: 1fr;
-    margin-top:0px;
-    margin-right: 10%;
-    margin-left: 10%;
+    margin-top: 1%;
+    margin-right: 1%;
+    margin-left: 1%;
 }
 
 .work-wrapper:hover > .work-item-wrapper > .work-title-card-wrapper h1{
