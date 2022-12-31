@@ -81,6 +81,7 @@ span {
   /* Work Experience */
   .work-item-wrapper{
     font-size: x-large;
+    margin-top: 1%;
   }
 
   /* Schooling */
@@ -97,6 +98,7 @@ span {
 
   .schooling-wrapper{
     font-size: x-large;
+    margin-top: 1%;
   }
 
   .schooling-item-wrapper > .schooling-wrapper-text h1 {
