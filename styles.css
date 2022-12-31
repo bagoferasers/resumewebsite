@@ -102,40 +102,6 @@ span {
   .schooling-item-wrapper > .schooling-wrapper-text h1 {
     line-height: 50px;
   }
-
-  /* Projects */
-
-  .project-wrapper {
-    font-size: x-large;
-    margin-left: 1%;
-    margin-right: 1%;
-  }
-
-  .project-images-wrapper { 
-    grid-template-columns: repeat(1, 1fr);  }
-
-  .project-images-wrapper img { 
-    width: 90%;
-    height: auto;
-    margin-left: auto;
-    margin-right: auto;
-    display: block;
-  }
-
-  .scroll {
-    overflow-y: scroll;
-    margin-bottom: 1%;
-    height: 700px;
-    width: 800px;
-    margin-top: 1%;
-    margin-left: auto;
-    margin-right: auto;
-    border-radius: 30px;
-  }
-
-  .scroll img {
-    width: 780px;
-  }
 }
 
 @media (min-width: 1000px) {
@@ -474,16 +440,16 @@ span {
   
   /* Work Experience */
   .work-item-wrapper {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
     font-size: medium;
   }
     
   /* Schooling */
   
   .schooling-item-wrapper {
-    margin-left: 15%;
-    margin-right: 15%;
+    margin-left: 25%;
+    margin-right: 25%;
   }
 
   .schooling-wrapper:hover {
@@ -534,7 +500,7 @@ span {
   .scroll img {
     width: 980px;
   }
-    
+
   .schooling-item-wrapper > .schooling-wrapper-text h1 {
     line-height: 25px;
   }
@@ -946,103 +912,3 @@ div {
 
 /* Project styles */
 
-.project-wrapper {
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
-
-.project-content-wrapper {
-  padding: 30px;
-  width:auto;
-  position: relative;
-  border-color:black;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 30px;
-  margin-bottom: 1%;
-}
-
-.project-wrapper h1 {
-  vertical-align: middle;
-  color: black;
-  margin-block: center;
-  text-align: center;
-  border-bottom: 2px solid black;
-  line-height: 60px;
-}
-
-.project-title-card-wrapper {
-  padding: 0px;
-  border-color:black;
-  border-width: 2px;
-  border-style: solid;
-  border-radius: 30px;
-  text-align: left;
-  padding-left: 30px;
-  margin-bottom: 1%;
-}
-
-.project-title-card-wrapper h2 {
-  vertical-align: middle;
-  line-height: 10px;
-  padding-left: 10px;
-  padding-right: 10px;
-  color: black;
-}
-
-.project-item-wrapper:hover > .project-title-card-wrapper h2{
-  transition: 0.4s;
-  color:white;
-}
-
-.project-wrapper-background-animate {
-  transition: 0.4s;
-  background-color: rgba(52, 88, 58, 0.534);
-}
-
-.scroll {
-  overflow-y: scroll;
-  margin-bottom: 1%;
-}
-
-.project-images-wrapper{
-  display: grid;
-}
-
-.project-image-wrapper{
-  position: relative;
-}
-
-.project-images-wrapper img{
-  margin-top:1%;
-  background-size:contain;
-  background-position: center;
-  background-repeat: no-repeat;
-  border-radius: 30px;
-  border-style:solid;
-  border-color: rgb(0, 0, 0);
-  border-width: 2px;
-  min-height: 550px;
-}
-
-
-.work-title-card-wrapper h1 {
-vertical-align: middle;
-line-height: 10px;
-padding-left: 10px;
-padding-right: 10px;
-color: black;
-}
-
-.work-title-card-wrapper p {
-vertical-align: middle;
-line-height: 10px;
-padding-left: 10px;
-padding-right: 10px;
-color: black;
-}
-
-.project-link-wrapper {
-  margin-top: 1%;
-  margin-bottom: 1%;
-}
