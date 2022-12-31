@@ -1002,13 +1002,14 @@ div {
 
 .project-images-wrapper img{
   margin-top:1%;
-  background-size: cover;
+  background-size:contain;
   background-position: center;
   background-repeat: no-repeat;
   border-radius: 30px;
   border-style:solid;
   border-color: rgb(0, 0, 0);
   border-width: 2px;
+  min-height: 550px;
 }
 
 
