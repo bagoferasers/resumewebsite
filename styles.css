@@ -572,7 +572,6 @@ div {
   .profile-image-wrapper img {
     position: relative;
     width:auto;
-
     border-radius: 30px;
     border-width: 2px;
     border-style: solid;
@@ -798,3 +797,90 @@ div {
 
 /* Project styles */
 
+.project-wrapper {
+  margin-top: 1%;
+  margin-bottom: 1%;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+.project-wrapper h1 {
+  vertical-align: middle;
+  color: black;
+  margin-block: center;
+  text-align: center;
+  border-bottom: 2px solid black;
+  line-height: 60px;
+}
+
+.project-title-card-wrapper {
+  padding: 0px;
+  border-color:black;
+  border-width: 2px;
+  border-style: solid;
+  border-radius: 30px;
+  text-align: left;
+  padding-left: 30px;
+}
+
+.project-title-card-wrapper h2 {
+  vertical-align: middle;
+  line-height: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  color: black;
+}
+
+.project-item-wrapper:hover > .project-title-card-wrapper h2{
+  transition: 0.4s;
+  color:white;
+}
+
+.project-wrapper-background-animate {
+  transition: 0.4s;
+  background-color: rgba(52, 88, 58, 0.534);
+}
+
+.scroll {
+  overflow-y: scroll;
+  height: 500px;
+  width: 930px;
+}
+
+.project-images-wrapper{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.project-images-wrapper img{
+  max-height: 400px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  border-radius: 30px;
+  border-style:solid;
+  border-color: rgb(0, 0, 0);
+  border-width: 2px;
+}
+
+
+.work-title-card-wrapper h1 {
+vertical-align: middle;
+line-height: 10px;
+padding-left: 10px;
+padding-right: 10px;
+color: black;
+}
+
+.work-title-card-wrapper p {
+vertical-align: middle;
+line-height: 10px;
+padding-left: 10px;
+padding-right: 10px;
+color: black;
+}
+
+.project-link-wrapper {
+  margin-top: 1%;
+  margin-bottom: 1%;
+}
